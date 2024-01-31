@@ -1,9 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-//The code creates two TypeScript objects, `Person_info` and `Person_info2`, which store information
-// about a person. Each object has properties such as `name`, `age`, `profession`, `hobbies`, and `languages`.
-//They think of something you could store in a TypeScript Object. Write a program that creates Objects containing these items
-console.log(`\nperson_info2 information`);
+console.log(`\nperson_info information`);
 let Person_info = {
     name: "Nasir Abbas",
     age: 20,

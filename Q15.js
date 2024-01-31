@@ -12,12 +12,13 @@ let invitedGuest = [
     "Kashif",
     "Nawaz",
 ];
-console.log(`Hello ${invitedGuest[0]}! I invited you to come on dinner.\nThank You\n`);
-console.log(`Hello ${invitedGuest[1]}! I invited you to come on dinner.\nThank You\n`);
-console.log(`Hello ${invitedGuest[2]}! I invited you to come on dinner.\nThank You\n`);
-console.log(`Hello ${invitedGuest[3]}! I invited you to come on dinner.\nThank You\n`);
-console.log(`Hello ${invitedGuest[4]}! I invited you to come on dinner.\nThank You\n`);
-console.log("The guest who can’t make it are kamran, Kashif, Nawaz \n");
+let new_guest_list = invitedGuest.splice(3, 3);
+console.log("The guest who can’t make it are:");
+for (let i = 0; i < new_guest_list.length; i++) {
+    let guestNames = new_guest_list[i];
+    console.log(guestNames);
+}
+//list of new guest and the guest who can’t make the dinner
 let modify_guest_name = ["Ali", "kamran", "Nawaz", "Amir", "Sadiq", "kashif"];
 for (let i = 0; i < modify_guest_name.length; i++) {
     let guestNames = modify_guest_name[i];

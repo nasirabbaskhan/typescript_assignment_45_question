@@ -5,6 +5,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 let guest_name = ["Ali", "Ahmad", "Nasir", "Amir", "Sadiq", "kashif"];
 for (let i = 0; i < guest_name.length; i++) {
-    let guestName = guest_name[i];
-    console.log(`Hello ${guestName}! I invited you to come on dinner.\nThank You\n`);
+    let guestNames = guest_name[i];
+    console.log(`Hello ${guestNames}! I invited you to come on dinner.\nThank You\n`);
 }

@@ -22,14 +22,11 @@ while (guest_names.length > 2) {
     let removed_guest = guest_names.pop();
     console.log(`hello, ${removed_guest}, Sorry! You are not invited to come on dinner.\nThank You\n`);
 }
-console.log(guest_names);
+console.log("Remaining guest list:", guest_names);
 for (let i = 0; i < guest_names.length; i++) {
     let guest = guest_names[i];
     console.log(`hello, ${guest}, You are invited to come on dinner.\nThank You\n`);
 }
 // Empty the list
-// delete the names of guest from the array to remain only two guests
-while (guest_names.length > 0) {
-    let removed_guest = guest_names.pop();
-}
+guest_names.length = 0;
 console.log("Final guest list:", guest_names); // Should be an empty list

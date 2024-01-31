@@ -24,7 +24,6 @@ console.log(`My favorite places in Original order: ${places}`);
 //Print your array in alphabetical order without modifying the actual list
 places.sort();
 console.log(`My favorite places in alphabetical order: ${places}`);
-//Show that your array is still in its original order by printing it
 //Print your array in reverse alphabetical order without changing the order of the original list
 places.reverse();
 console.log(`My favorite places in reverse order: ${places}`);
@@ -34,5 +33,3 @@ console.log(`My favorite places in original order: ${places}`);
 // Sort your array so it’s stored in alphabetical order. Print the array to show that its order has been changed.
 places.sort();
 console.log(`My favorite places in alphabetical order: ${places}`);
-places.sort();
-console.log(`My favorite places in original order: ${places}`);

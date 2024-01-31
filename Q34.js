@@ -12,3 +12,4 @@ console.log("\nName of my favorite pizza");
 favorite_pizza.forEach((element) => {
     console.log(`I like ${element} Pizza`);
 });
+console.log("I really like pizza....");

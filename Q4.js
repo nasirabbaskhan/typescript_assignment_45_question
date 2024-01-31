@@ -6,6 +6,6 @@ let Quote = "A person who never made a mistake never tried anything new.";
 let auther = "Albert Einstein";
 console.log(`${auther} once said , "${Quote}"`);
 // a famous quate of famous person
-let famousQuote = "The world is a book, and those who do not travel read only a page..";
+let famousQuote = "The world is a book, and those who do not travel read only a page.";
 let famousAuther = "Ibn - e - Batuta";
 console.log(`${famousAuther} once said , "${famousQuote}"`);

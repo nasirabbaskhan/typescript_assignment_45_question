@@ -7,9 +7,5 @@ function show_magicians(magicians) {
     magicians.forEach((element) => {
         console.log(`Hello there, ${element}`);
     });
-    //   for (let index = 0; index < magicians.length; index++) {
-    //     const element = magicians[index];
-    //     console.log(`Hello there,`, element);
-    //   }
 }
 show_magicians(magicians);
